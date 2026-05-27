@@ -1,0 +1,2 @@
+public class LibraryManagerTest1 {
+}
