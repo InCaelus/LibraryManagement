@@ -8,7 +8,8 @@ public class LibraryManager {
     private User currentUser;
     private LibraryRepository repository;
     private int bookCount = 0;
-
+    private int loginFailCount = 0; // 로그인 실패 횟수
+    private static final int MAX_LOGIN_ATTEMPTS = 5; // 최대 로그인 시도 가능 횟수
     /**
      * LibraryManager 생성자입니다.
      * @param repository 데이터를 저장하고 불러올 리포지토리 객체
