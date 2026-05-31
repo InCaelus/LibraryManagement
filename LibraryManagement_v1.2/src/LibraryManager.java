@@ -59,6 +59,13 @@ public class LibraryManager {
         loginFailCount++; // 로그인 실패 시, 증가
         return false;
     }
+    public boolean isLocked() { //로그인 실패 횟수가 로그인 시도 가능한 최대 횟수보다 크거나 같으면 잠김
+        return loginFailCount >= MAX_LOGIN_ATTEMPTS;
+    }
+
+    public int getLoginFailCount() { //로그인 실패 횟수 조회 메서드
+        return loginFailCount;
+    }
 
     /** @return 현재 로그인 중인 {@link User} 객체 */
     public User getCurrentUser() {

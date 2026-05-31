@@ -41,79 +41,79 @@
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "InCaelus"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;InCaelus&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/InCaelus/LibraryManagement.git",
-    "accountId": "8373475d-342e-4f22-8922-fa806aa731b0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/InCaelus/LibraryManagement.git&quot;,
+    &quot;accountId&quot;: &quot;8373475d-342e-4f22-8922-fa806aa731b0&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000007236" />
-      <entry key="S2" value="1.0009223649473715" />
-      <entry key="S5" value="1.0633764275357596" />
-      <entry key="S10" value="1.3312051952656578" />
-      <entry key="S30" value="2.851923205937615" />
-      <entry key="S60" value="4.84805977623691" />
-      <entry key="M2" value="8.227934991659222" />
-      <entry key="M5" value="13.636614701338138" />
-      <entry key="M10" value="16.76454147602606" />
-      <entry key="M15" value="18.034952093974717" />
-      <entry key="M30" value="19.44151962378335" />
-      <entry key="H1" value="20.200715683946783" />
-      <entry key="H2" value="20.59520839523174" />
-      <entry key="H4" value="20.796299108090388" />
-      <entry key="D1" value="20.96586706399716" />
-      <entry key="W1" value="20.995119369837838" />
+      <entry key="MS100" value="1.0000012241730223" />
+      <entry key="MS500" value="1.0789568759232244" />
+      <entry key="S2" value="2.04100631187835" />
+      <entry key="S5" value="3.118795587206078" />
+      <entry key="S10" value="4.5382895864542405" />
+      <entry key="S30" value="8.870793235525149" />
+      <entry key="S60" value="11.840724671510833" />
+      <entry key="M2" value="15.289499390449887" />
+      <entry key="M5" value="22.265001471041337" />
+      <entry key="M10" value="27.740086033389545" />
+      <entry key="M15" value="30.291739102329107" />
+      <entry key="M30" value="33.34194590300694" />
+      <entry key="H1" value="35.08724844392389" />
+      <entry key="H2" value="36.02163573259739" />
+      <entry key="H4" value="36.5051825358327" />
+      <entry key="D1" value="36.91673571489636" />
+      <entry key="W1" value="36.98808548111154" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.322689246564463E-162" />
-      <entry key="MS500" value="5.0617179911170026E-33" />
-      <entry key="S2" value="8.43479411386455E-9" />
-      <entry key="S5" value="5.894266861260719E-4" />
-      <entry key="S10" value="0.024278111255327747" />
-      <entry key="S30" value="0.28955982073461106" />
-      <entry key="S60" value="0.5381076293220631" />
-      <entry key="M2" value="0.7335581976381037" />
-      <entry key="M5" value="0.883433431098469" />
-      <entry key="M10" value="0.9399113953445128" />
-      <entry key="M15" value="0.9595286426979891" />
-      <entry key="M30" value="0.9795553290641571" />
-      <entry key="H1" value="0.9897248754397138" />
-      <entry key="H2" value="0.9948491722063773" />
-      <entry key="H4" value="0.9974212611561765" />
-      <entry key="D1" value="0.999569747665422" />
-      <entry key="W1" value="0.9999385240440568" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.0533484951691567E-195" />
+      <entry key="S2" value="2.128705910784969E-49" />
+      <entry key="S5" value="3.39817911511303E-20" />
+      <entry key="S10" value="1.8434150685922674E-10" />
+      <entry key="S30" value="5.691250625808157E-4" />
+      <entry key="S60" value="0.023856342187787614" />
+      <entry key="M2" value="0.15445498434102933" />
+      <entry key="M5" value="0.4737189643041969" />
+      <entry key="M10" value="0.6882724491828777" />
+      <entry key="M15" value="0.7795433247792876" />
+      <entry key="M30" value="0.8829175073466871" />
+      <entry key="H1" value="0.9396369018651234" />
+      <entry key="H2" value="0.969348699831553" />
+      <entry key="H4" value="0.9845550770939909" />
+      <entry key="D1" value="0.9974091224254357" />
+      <entry key="W1" value="0.9996294629934604" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2071195544913103E-6" />
-      <entry key="MS500" value="0.06551640471985018" />
-      <entry key="S2" value="0.5063796910543678" />
-      <entry key="S5" value="0.8094939006469125" />
-      <entry key="S10" value="1.1818963966884475" />
-      <entry key="S30" value="3.013267750191826" />
-      <entry key="S60" value="5.287413853421808" />
-      <entry key="M2" value="8.893175619615906" />
-      <entry key="M5" value="14.483860643122142" />
-      <entry key="M10" value="17.684113277040936" />
-      <entry key="M15" value="18.980336528599985" />
-      <entry key="M30" value="20.413685346129114" />
-      <entry key="H1" value="21.186661217617306" />
-      <entry key="H2" value="21.588146076415942" />
-      <entry key="H4" value="21.792759080363926" />
-      <entry key="D1" value="21.965275819312012" />
-      <entry key="W1" value="21.99503487583268" />
+      <entry key="MS100" value="0.012344396153890538" />
+      <entry key="MS500" value="0.4372083722141174" />
+      <entry key="S2" value="1.5957582673274024" />
+      <entry key="S5" value="2.820809749650191" />
+      <entry key="S10" value="4.314741663083837" />
+      <entry key="S30" value="8.73400887507872" />
+      <entry key="S60" value="11.77394185221721" />
+      <entry key="M2" value="15.38051239045289" />
+      <entry key="M5" value="22.698020289903454" />
+      <entry key="M10" value="28.402513924705307" />
+      <entry key="M15" value="31.052421927164044" />
+      <entry key="M30" value="34.214483057011606" />
+      <entry key="H1" value="36.02142852886765" />
+      <entry key="H2" value="36.9881853419238" />
+      <entry key="H4" value="37.48831986834646" />
+      <entry key="D1" value="37.91390597272187" />
+      <entry key="W1" value="37.98768075694745" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.5.5/bin/php" />
@@ -126,39 +126,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LibraryMain.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.LibraryRepositoryTest.executor": "Run",
-    "JUnit.LibraryRepositoryTest1.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "dev/Github-Issue7",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/leein/OneDrive/바탕 화면/Github/LibraryManagement",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LibraryMain.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.LibraryRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LibraryRepositoryTest1.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev/Github-Issue7&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/leein/OneDrive/바탕 화면/Github/LibraryManagement&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LibraryManagement" />
@@ -194,7 +194,7 @@
       <workItem from="1779239409183" duration="2271000" />
       <workItem from="1779241915814" duration="1390000" />
       <workItem from="1779844157036" duration="3221000" />
-      <workItem from="1780251826020" duration="1513000" />
+      <workItem from="1780251826020" duration="1905000" />
     </task>
     <servers />
   </component>
