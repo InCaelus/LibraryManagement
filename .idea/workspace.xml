@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a17e6b0-f93b-48cc-8774-a20f20c0905d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/test/LibraryManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/test/LibraryManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,61 +60,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0245182530592736" />
-      <entry key="MS500" value="1.4767793027534752" />
-      <entry key="S2" value="2.1470395155579824" />
-      <entry key="S5" value="3.7551984090875035" />
-      <entry key="S10" value="5.637869482803163" />
-      <entry key="S30" value="8.102357175242883" />
-      <entry key="S60" value="8.979547525258273" />
-      <entry key="M2" value="9.470886863707289" />
-      <entry key="M5" value="10.173196312234078" />
-      <entry key="M10" value="13.847515280082693" />
-      <entry key="M15" value="18.663375437022538" />
-      <entry key="M30" value="29.46124113529681" />
-      <entry key="H1" value="39.230704397290665" />
-      <entry key="H2" value="45.85241291329996" />
-      <entry key="H4" value="49.714829106629374" />
-      <entry key="D1" value="53.25450866558964" />
-      <entry key="W1" value="53.89270816389324" />
+      <entry key="MS100" value="5.479429484940427E-11" />
+      <entry key="MS500" value="0.018626412037066414" />
+      <entry key="S2" value="0.9880716324685711" />
+      <entry key="S5" value="2.274192438040168" />
+      <entry key="S10" value="3.013328067040858" />
+      <entry key="S30" value="3.6388692259496835" />
+      <entry key="S60" value="3.8150850086393806" />
+      <entry key="M2" value="3.9202131736443504" />
+      <entry key="M5" value="4.708479545488344" />
+      <entry key="M10" value="7.731407585344715" />
+      <entry key="M15" value="11.799832519535157" />
+      <entry key="M30" value="23.054851029492205" />
+      <entry key="H1" value="35.5523579104363" />
+      <entry key="H2" value="45.12160925830323" />
+      <entry key="H4" value="51.08048831613952" />
+      <entry key="D1" value="56.77347361807337" />
+      <entry key="W1" value="57.822894988062444" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.0930362073529695E-250" />
-      <entry key="S5" value="1.570920264903239E-100" />
-      <entry key="S10" value="1.2543685039202722E-50" />
-      <entry key="S30" value="2.6652032458909748E-17" />
-      <entry key="S60" value="7.441454695656902E-9" />
-      <entry key="M2" value="1.4410212670883481E-4" />
-      <entry key="M5" value="0.06075047376848873" />
-      <entry key="M10" value="0.4807807196926897" />
-      <entry key="M15" value="0.9679499036949553" />
-      <entry key="M30" value="1.9609072998570047" />
-      <entry key="H1" value="2.798111262089768" />
-      <entry key="H2" value="3.3447355768757987" />
-      <entry key="H4" value="3.6575092307367654" />
-      <entry key="D1" value="3.940735967611528" />
-      <entry key="W1" value="3.9914786485734344" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0000000000000158" />
+      <entry key="M2" value="1.0000002099640861" />
+      <entry key="M5" value="1.0044559418983998" />
+      <entry key="M10" value="1.130209289259756" />
+      <entry key="M15" value="1.4051813971922598" />
+      <entry key="M30" value="2.2686895762110426" />
+      <entry key="H1" value="3.2506819793221724" />
+      <entry key="H2" value="3.9997590120996023" />
+      <entry key="H4" value="4.463759416115429" />
+      <entry key="D1" value="4.905149991509553" />
+      <entry key="W1" value="4.986309437515065" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.499087931029928" />
-      <entry key="MS500" value="1.172191968044958" />
-      <entry key="S2" value="1.9593897523077346" />
-      <entry key="S5" value="3.552786874059134" />
-      <entry key="S10" value="5.4564155874694045" />
-      <entry key="S30" value="8.004712108777818" />
-      <entry key="S60" value="8.923895744293427" />
-      <entry key="M2" value="9.441270747206184" />
-      <entry key="M5" value="10.220675023966367" />
-      <entry key="M10" value="14.317738189086823" />
-      <entry key="M15" value="19.62091297359936" />
-      <entry key="M30" value="31.413215359866246" />
-      <entry key="H1" value="42.0226824279371" />
-      <entry key="H2" value="49.193520591749326" />
-      <entry key="H4" value="53.37036123126936" />
-      <entry key="D1" value="57.194890246660115" />
-      <entry key="W1" value="57.88413554597981" />
+      <entry key="MS100" value="1.1016333488677524E-5" />
+      <entry key="MS500" value="0.11676692655077106" />
+      <entry key="S2" value="1.4794392407879378" />
+      <entry key="S5" value="2.9966535826696474" />
+      <entry key="S10" value="3.8555461815017216" />
+      <entry key="S30" value="4.581103630635258" />
+      <entry key="S60" value="4.785484949056193" />
+      <entry key="M2" value="4.905184962353442" />
+      <entry key="M5" value="5.70592281646934" />
+      <entry key="M10" value="8.855730313952735" />
+      <entry key="M15" value="13.198635499272708" />
+      <entry key="M30" value="25.316750224491702" />
+      <entry key="H1" value="38.79760098599001" />
+      <entry key="H2" value="49.11786170463229" />
+      <entry key="H4" value="55.54224892175784" />
+      <entry key="D1" value="61.67825134841844" />
+      <entry key="W1" value="62.80915021474799" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.5.5/bin/php" />
@@ -131,6 +131,7 @@
   "keyToString": {
     "Application.LibraryMain.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in LibraryManagement_v1.2.executor": "Run",
     "JUnit.LibraryManagerTest.executor": "Run",
     "JUnit.LibraryManagerTest.loginSqlInjectionTest.executor": "Run",
     "JUnit.LibraryRepositoryTest.executor": "Run",
@@ -180,16 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryManagerTest.loginSqlInjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LibraryManagement_v1.2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryManagerTest" />
-      <option name="METHOD_NAME" value="loginSqlInjectionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LibraryManagement" />
       <method v="2">
@@ -205,7 +196,6 @@
       <list>
         <item itemvalue="JUnit.All in LibraryManagement_v1.2" />
         <item itemvalue="JUnit.LibraryManagerTest" />
-        <item itemvalue="JUnit.LibraryManagerTest.loginSqlInjectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +221,7 @@
       <workItem from="1779239409183" duration="2271000" />
       <workItem from="1779241915814" duration="1390000" />
       <workItem from="1779844157036" duration="3221000" />
-      <workItem from="1780251826020" duration="4240000" />
+      <workItem from="1780251826020" duration="4733000" />
     </task>
     <servers />
   </component>

@@ -119,6 +119,7 @@ public class LibraryRepository {
             }
         } catch (SQLException e) {
             System.err.println("[오류] 로드 실패: " + e.getMessage());
+            e.printStackTrace();
         }
         return bookMap;
     }
