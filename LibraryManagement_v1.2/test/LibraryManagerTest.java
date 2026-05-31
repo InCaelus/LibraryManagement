@@ -100,6 +100,40 @@ class LibraryManagerTest {
     }
 
     @Test
+    @DisplayName("보안 테스트: 로그인 5회 실패 후 계정 잠금")
+    void loginBruteForceBlockTest() {
+        for (int i = 0; i < 5; i++) {
+            manager.login("admin", "wrongpw");
+        }
+        assertTrue(manager.isLocked(), "5회 실패 후 계정이 잠겨야 합니다.");
+    }
+
+    @Test
+    @DisplayName("보안 테스트: 잠금 상태에서 올바른 비밀번호로도 로그인 불가")
+    void loginLockedAfterMaxAttemptsTest() {
+        for (int i = 0; i < 5; i++) {
+            manager.login("admin", "wrongpw");
+        }
+
+        boolean result = manager.login("admin", "1111");
+
+        assertFalse(result, "잠금 상태에서는 올바른 비밀번호도 거부되어야 합니다.");
+    }
+
+    @Test
+    @DisplayName("로그인 성공 시 실패 횟수 초기화 확인")
+    void loginFailCountResetOnSuccessTest() {
+        for (int i = 0; i < 4; i++) {
+            manager.login("admin", "wrongpw");
+        }
+        assertEquals(4, manager.getLoginFailCount());
+
+        manager.login("admin", "1111");
+
+        assertEquals(0, manager.getLoginFailCount(), "로그인 성공 시 실패 횟수가 초기화되어야 합니다.");
+    }
+
+    @Test
     @DisplayName("도서 반납 로직 확인")
     void returnBook() {
         manager.login("user", "2222");
