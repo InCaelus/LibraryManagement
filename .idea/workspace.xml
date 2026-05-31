@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a17e6b0-f93b-48cc-8774-a20f20c0905d" name="Changes" comment="" />
+    <list default="true" id="7a17e6b0-f93b-48cc-8774-a20f20c0905d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +56,65 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000007236" />
+      <entry key="S2" value="1.0009223649473715" />
+      <entry key="S5" value="1.0633764275357596" />
+      <entry key="S10" value="1.3312051952656578" />
+      <entry key="S30" value="2.851923205937615" />
+      <entry key="S60" value="4.84805977623691" />
+      <entry key="M2" value="8.227934991659222" />
+      <entry key="M5" value="13.636614701338138" />
+      <entry key="M10" value="16.76454147602606" />
+      <entry key="M15" value="18.034952093974717" />
+      <entry key="M30" value="19.44151962378335" />
+      <entry key="H1" value="20.200715683946783" />
+      <entry key="H2" value="20.59520839523174" />
+      <entry key="H4" value="20.796299108090388" />
+      <entry key="D1" value="20.96586706399716" />
+      <entry key="W1" value="20.995119369837838" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="3.322689246564463E-162" />
+      <entry key="MS500" value="5.0617179911170026E-33" />
+      <entry key="S2" value="8.43479411386455E-9" />
+      <entry key="S5" value="5.894266861260719E-4" />
+      <entry key="S10" value="0.024278111255327747" />
+      <entry key="S30" value="0.28955982073461106" />
+      <entry key="S60" value="0.5381076293220631" />
+      <entry key="M2" value="0.7335581976381037" />
+      <entry key="M5" value="0.883433431098469" />
+      <entry key="M10" value="0.9399113953445128" />
+      <entry key="M15" value="0.9595286426979891" />
+      <entry key="M30" value="0.9795553290641571" />
+      <entry key="H1" value="0.9897248754397138" />
+      <entry key="H2" value="0.9948491722063773" />
+      <entry key="H4" value="0.9974212611561765" />
+      <entry key="D1" value="0.999569747665422" />
+      <entry key="W1" value="0.9999385240440568" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.2071195544913103E-6" />
+      <entry key="MS500" value="0.06551640471985018" />
+      <entry key="S2" value="0.5063796910543678" />
+      <entry key="S5" value="0.8094939006469125" />
+      <entry key="S10" value="1.1818963966884475" />
+      <entry key="S30" value="3.013267750191826" />
+      <entry key="S60" value="5.287413853421808" />
+      <entry key="M2" value="8.893175619615906" />
+      <entry key="M5" value="14.483860643122142" />
+      <entry key="M10" value="17.684113277040936" />
+      <entry key="M15" value="18.980336528599985" />
+      <entry key="M30" value="20.413685346129114" />
+      <entry key="H1" value="21.186661217617306" />
+      <entry key="H2" value="21.588146076415942" />
+      <entry key="H4" value="21.792759080363926" />
+      <entry key="D1" value="21.965275819312012" />
+      <entry key="W1" value="21.99503487583268" />
+    </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.5.5/bin/php" />
   <component name="ProjectColorInfo">{
@@ -133,7 +194,7 @@
       <workItem from="1779239409183" duration="2271000" />
       <workItem from="1779241915814" duration="1390000" />
       <workItem from="1779844157036" duration="3221000" />
-      <workItem from="1780251826020" duration="1167000" />
+      <workItem from="1780251826020" duration="1513000" />
     </task>
     <servers />
   </component>

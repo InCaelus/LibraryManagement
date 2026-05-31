@@ -42,14 +42,21 @@ public class LibraryManager {
      * @see LibraryRepository#loadUser(String, String)
      */
     public boolean login(String id, String pw) {
+        // 최대 로그인 횟수를 넘어선 로그인 시도는 불가하도록 함.
+        if(loginFailCount >= MAX_LOGIN_ATTEMPTS)
+        {
+            return false;
+        }
         // 기존에 List<String>으로 받던 부분을 User로 변경
 //        this.userList = repository.loadLogin(id, pw);
         User user = repository.loadUser(id, pw);
 
         if (user != null) {
             this.currentUser = user; // 로그인 성공 시 현재 사용자 저장
+            loginFailCount = 0; // 로그인 성공 시, 로그인 시도 횟수 초기화
             return true;
         }
+        loginFailCount++; // 로그인 실패 시, 증가
         return false;
     }
 
