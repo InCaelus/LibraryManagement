@@ -132,6 +132,7 @@
     "Application.LibraryMain.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.LibraryManagerTest.executor": "Run",
+    "JUnit.LibraryManagerTest.loginSqlInjectionTest.executor": "Run",
     "JUnit.LibraryRepositoryTest.executor": "Run",
     "JUnit.LibraryRepositoryTest1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -161,7 +162,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LibraryManagerTest.loginSqlInjectionTest">
+  <component name="RunManager" selected="JUnit.All in LibraryManagement_v1.2">
+    <configuration name="All in LibraryManagement_v1.2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagement_v1.2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManagement_v1.2" />
       <option name="PACKAGE_NAME" value="" />
@@ -194,8 +203,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryManagerTest.loginSqlInjectionTest" />
+        <item itemvalue="JUnit.All in LibraryManagement_v1.2" />
         <item itemvalue="JUnit.LibraryManagerTest" />
+        <item itemvalue="JUnit.LibraryManagerTest.loginSqlInjectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +231,7 @@
       <workItem from="1779239409183" duration="2271000" />
       <workItem from="1779241915814" duration="1390000" />
       <workItem from="1779844157036" duration="3221000" />
-      <workItem from="1780251826020" duration="3902000" />
+      <workItem from="1780251826020" duration="4240000" />
     </task>
     <servers />
   </component>

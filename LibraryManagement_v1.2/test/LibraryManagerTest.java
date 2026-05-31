@@ -195,6 +195,14 @@ class LibraryManagerTest {
             System.out.println("SQL Injection 공격 차단: 유효하지 않은 계정으로 로그인이 거부되었습니다.");
         }
     }
+    @Test
+    @DisplayName("보안 테스트: 정상 로그인 성공 여부 확인")
+    void loginNormalAfterSqlInjectionFixTest() {
+        // Given: 정상 계정
+        // When & Then: 패치 후에도 정상 로그인은 가능해야 함
+        assertTrue(manager.login("admin", "1111"), "정상 로그인은 성공");
+        assertFalse(manager.login("admin", "wrong"), "틀린 비밀번호는 실패");
+    }
 
     /**
      * 운영체제 명령어 주입(OS Command Injection) 취약점의 존재 여부를 검증하는 테스트입니다.
