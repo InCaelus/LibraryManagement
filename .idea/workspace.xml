@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a17e6b0-f93b-48cc-8774-a20f20c0905d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="7a17e6b0-f93b-48cc-8774-a20f20c0905d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev/Github-Issue-5",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/in/Desktop/GitHub/LibraryManagement",
@@ -110,7 +107,7 @@
       <workItem from="1779239193478" duration="186000" />
       <workItem from="1779239409183" duration="2271000" />
       <workItem from="1779241915814" duration="1390000" />
-      <workItem from="1779844157036" duration="3221000" />
+      <workItem from="1779844157036" duration="3824000" />
     </task>
     <servers />
   </component>
