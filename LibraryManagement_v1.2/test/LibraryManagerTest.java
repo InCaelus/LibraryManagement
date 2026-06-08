@@ -185,15 +185,23 @@ class LibraryManagerTest {
         String attackId = "' OR 1=1 #";
         String attackPw = "wrong_password";
 
-        // When: 취약한 login 메서드 호출
+        // When: 패치된 login 메서드 호출 - SQL Injection 차단 여부 확인
         boolean result = manager.login(attackId, attackPw);
 
-        // Then: 로그인이 성공(true)한다면 SQL Injection 취약점이 존재함을 입증
-        assertTrue(result, "취약점 발견: SQL Injection 페이로드로 인증이 우회되었습니다.");
+        // Then: SQL Injection이 차단되어 로그인이 실패해야 함
+        assertFalse(result, "SQL Injection 페이로드로 인증이 우회되면 안됩니다.");
 
-        if (result) {
-            System.out.println("[경고] SQL Injection 공격 성공: 유효하지 않은 계정으로 로그인되었습니다.");
+        if (!result) {
+            System.out.println("SQL Injection 공격 차단: 유효하지 않은 계정으로 로그인이 거부되었습니다.");
         }
+    }
+    @Test
+    @DisplayName("보안 테스트: 정상 로그인 성공 여부 확인")
+    void loginNormalAfterSqlInjectionFixTest() {
+        // Given: 정상 계정
+        // When & Then: 패치 후에도 정상 로그인은 가능해야 함
+        assertTrue(manager.login("admin", "1111"), "정상 로그인은 성공");
+        assertFalse(manager.login("admin", "wrong"), "틀린 비밀번호는 실패");
     }
 
     /**

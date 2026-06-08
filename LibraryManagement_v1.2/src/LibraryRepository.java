@@ -119,6 +119,7 @@ public class LibraryRepository {
             }
         } catch (SQLException e) {
             System.err.println("[오류] 로드 실패: " + e.getMessage());
+            e.printStackTrace();
         }
         return bookMap;
     }
@@ -135,9 +136,9 @@ public class LibraryRepository {
      */
     public User loadUser(String id, String pw) {
         //String sql = "SELECT * FROM users WHERE user_id = ? AND password = ?";
-        String sql = "SELECT * FROM users WHERE user_id = '" + id + "' AND password = '" + pw + "'";
+        // String sql = "SELECT * FROM users WHERE user_id = '" + id + "' AND password = '" + pw + "'";
         //System.out.println(sql);
-
+        String sql = "SELECT * FROM users WHERE user_id = ? AND password = ?";
         try (Connection conn = getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
 
