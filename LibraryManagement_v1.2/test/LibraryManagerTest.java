@@ -232,28 +232,32 @@ class LibraryManagerTest {
      * @see <a href="https://github.com/sumannam/Java/issues/43">Issue #43: OS Command Injection 취약점 개발</a>
      */
     @Test
-    @DisplayName("보안 테스트: OS Command Injection을 통한 임의 파일 생성")
+    @DisplayName("보안 테스트: OS Command Injection 차단 확인")
     void osCommandInjectionTest() {
-        // Given: 핑 명령어 뒤에 'vuln.txt' 파일을 만드는 명령어를 삽입 (Windows 기준)
+        // Given: ping 명령어 뒤에 파일 생성 명령어를 삽입하는 페이로드
         String fileName = "vuln.txt";
         String payload = "127.0.0.1 && echo hacked > " + fileName;
 
-        // When: 취약한 서버 진단 기능 실행
         manager.checkServerStatus(payload);
 
-        // Then: 주입된 명령어(echo hacked > vuln.txt)가 실행되어 파일이 생성되었는지 확인
+        // Then: IP 검증으로 차단되어 파일이 생성되지 않아야 함
         File injectedFile = new File(fileName);
         boolean isVulnerable = injectedFile.exists();
 
-        // 테스트 완료 후 생성된 파일 삭제 (흔적 제거)
-        if (isVulnerable) {
-            injectedFile.delete();
-        }
+        if (isVulnerable) injectedFile.delete();
 
-        assertTrue(isVulnerable, "취약점 발견: OS 명령어가 주입되어 임의의 파일이 생성되었습니다.");
+        assertFalse(isVulnerable, "OS Command Injection이 차단되어야 합니다.");
 
-        if (isVulnerable) {
-            System.out.println("[경고] OS Command Injection 공격 성공: 서버 내에서 임의 명령어가 실행되었습니다.");
+        if (!isVulnerable) {
+            System.out.println("[확인] OS Command Injection 공격 차단: 명령어 주입이 거부되었습니다.");
         }
+    }
+    @Test
+    @DisplayName("보안 테스트: 정상 IP 주소는 실행 가능한지 확인")
+    void checkServerStatusValidIpTest() {
+        String validIp = "127.0.0.1";
+
+        assertDoesNotThrow(() -> manager.checkServerStatus(validIp),
+                "유효한 IP 주소는 정상적으로 실행되어야 합니다.");
     }
 }
