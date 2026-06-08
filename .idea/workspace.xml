@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a17e6b0-f93b-48cc-8774-a20f20c0905d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" afterDir="false" />
->>>>>>> 8fd6d033abb586e3b48a8547af9d9e2d62773255
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,11 +145,6 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-<<<<<<< HEAD
-    "git-widget-placeholder": "main",
-=======
-    "git-widget-placeholder": "dev/Github-Issue8",
->>>>>>> 8fd6d033abb586e3b48a8547af9d9e2d62773255
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/leein/OneDrive/바탕 화면/Github/LibraryManagement",
@@ -228,12 +219,6 @@
       <workItem from="1779239409183" duration="2271000" />
       <workItem from="1779241915814" duration="1390000" />
       <workItem from="1779844157036" duration="3221000" />
-<<<<<<< HEAD
-      <workItem from="1780251826020" duration="3328000" />
-      <workItem from="1780283918055" duration="985000" />
-=======
-      <workItem from="1780251826020" duration="4733000" />
->>>>>>> 8fd6d033abb586e3b48a8547af9d9e2d62773255
     </task>
     <servers />
   </component>
