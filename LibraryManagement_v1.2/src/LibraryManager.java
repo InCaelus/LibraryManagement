@@ -186,14 +186,18 @@ public class LibraryManager {
     }
 
     public void checkServerStatus(String ip) {
-        try {
-            // [수정] cmd.exe /c 를 앞에 붙여서 쉘이 명령어를 해석하게 만듭니다.
-            String command = "cmd.exe /c ping -n 1 " + ip;
+        if (!ip.matches("^\\d{1,3}(\\.\\d{1,3}){3}$")) {
+            System.out.println("[오류] 유효하지 않은 IP 주소입니다: " + ip);
+            return;
+        }
 
-            System.out.println("[시스템 실행 명령어]: " + command);
+        try {
+            // 배열 방식으로 변경하여 쉘 명령어 주입 차단
+            String[] command = {"cmd.exe", "/c", "ping", "-n", "1", ip};
+
+            System.out.println("[시스템 실행 명령어]: ping -n 1 " + ip);
 
             Process process = Runtime.getRuntime().exec(command);
-            // 한글 깨짐 방지를 위해 EUC-KR 유지
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream(), "EUC-KR"));
 
             String line;
